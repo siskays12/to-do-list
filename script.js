@@ -106,7 +106,7 @@ function renderTasks() {
         const deleteButton = document.createElement("button");
         deleteButton.type = "button";
         deleteButton.className = "delete-button";
-        deleteButton.textContent = "Hapus";
+        deleteButton.textContent = "delete";
 
         deleteButton.addEventListener("click", () => {
             tasks = tasks.filter(item => item.id !== task.id);
